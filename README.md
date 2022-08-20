@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+## WELCOME TO MY REPO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Hello, it's nice to see you in my github repo. I had created the repo for helping the developer's to build compoents without using any NPM packages.
 
-## Available Scripts
+        -- By copy & paste, you can implement in your project.
+        -- Adjust the component styles based on your design needs.
+    
+    You can find the below component's in the repo:
+        -- Accordian
+        -- Bread Crumbs
+        -- Buttons
+        -- Carousel
+        -- Cards
+        -- Dropdown
+        -- Forms
+        -- Grid
+        -- Hamburgur Menu.ie.small screen( screen size < 480px )
+        -- Input
+        -- Modal
+        -- Tab
+        -- Table
+        -- Toggle Switch
 
-In the project directory, you can run:
 
-### `npm start`
+## ACCORDIAN
+    -- Builded the accordian with useState hook.
+    -- Change the up/down arrow into plus/minus or any other based on your design and position as well.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Types of accordian:
+        -- Default( downward direction )
+        -- Collapse( dual direction )
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## CAROUSEL
+    -- Builded the carousel with useState and useEffect hook.
+    -- Every carousel is an infinite loop.
 
-### `npm test`
+    Types of carousel:
+        -- Navigation
+        -- Pagination
+        -- Progress bar
+        -- Automatic
+        -- Navigation with Pagination
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## GRID
+    -- Builded using SCSS with grid and adjust the grid based on your design requirements.
 
-### `npm run build`
+    Types of grid:
+        -- Default( commanly used )
+        -- Instagram( complex grid )
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## HAMBURGUR MENU
+    -- Builded with useState hook.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Types of hamburgur:
+        -- Default
+        -- Two cross hamburgur
+        -- Three cross hamburgur
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## INPUT
+    -- Builded with SCSS based on focus and valid.
 
-### `npm run eject`
+## MODEL
+    -- Builded with useRef, useState, useEffect hook.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Speciality:
+        -- when you click outside the screen, the modal will close.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## NOTIFICATION
+    -- Builded with useState and useEffect hook with a timeout.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Types of notification:
+        -- Badge
+        -- Automatic
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## TAB
+    -- Builded with useState hook.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Types of tab:
+        -- Default
+        -- Classic
+        -- Dot
+        -- Gradient
