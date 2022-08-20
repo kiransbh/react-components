@@ -1,0 +1,49 @@
+.navigation_container{
+    width: 42vw;
+    height: 300px;
+
+    position: relative;
+
+    .prev,
+    .next{
+        width: 36px;
+        height: 36px;
+        background: red;
+        border-radius: 50%;
+        box-shadow: 0 0 2px 2px rgba($color: #000000, $alpha: 0.5);
+
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+
+        z-index: 100;
+        cursor: pointer;
+    }
+
+    .prev{
+        left: 4%;
+    }
+
+    .next{
+        left: 96%;
+    }
+
+    .active-slide{
+        width: 100%;
+        height: 100%;
+        background: #000;
+        border-radius: 12px;
+
+        display: grid;
+        place-items: center;
+
+        font-size: 24px;
+        color: white;
+
+        position: absolute;
+    }
+
+    .not-active-slide{
+        display: none;
+    }
+}

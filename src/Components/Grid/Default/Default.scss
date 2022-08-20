@@ -1,0 +1,20 @@
+.default_grid_container{
+    width: 80vw;
+    padding: 2em 0;
+
+    display: grid;
+    // The child div will take position in column direction
+    // For responsiveness, make this small change - grid-template-columns: repeat(1, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .grid-container{
+        width: 100%;
+        height: 240px;
+        border: 1px solid #000;
+        border-radius: 6px;
+
+        display: grid;
+        place-items: center;
+    }
+}

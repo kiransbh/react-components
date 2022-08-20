@@ -1,0 +1,41 @@
+.input_container{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    input{
+        width: 360px;
+        height: 42px;
+
+        border: none;
+        outline: none;
+
+        border: 1px solid #000;
+        border-radius: 5px;
+        background-color: transparent;
+
+        font-size: 18px;
+        padding-left: 12px;
+    }
+
+    // when the user click on the input, the label will move upwards
+    // ~ - used for nearest next child
+    input:focus ~ label,
+    input:valid ~ label{
+        top: -15px;
+        left: 12px;
+    }
+
+    label{
+        font-size: 18px;
+        position: absolute;
+        top: 6px;
+        left: 12px;
+        background-color: white;
+        padding: 2px 4px;
+        pointer-events: none;
+
+        transition: 0.1s all;
+    }
+}

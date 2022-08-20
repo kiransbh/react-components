@@ -1,0 +1,61 @@
+.timeout_container{
+    button{
+        margin: 0 1em;
+        border: none;
+        outline: none;
+        background: transparent;
+
+        font-size: 18px;
+        padding: 0.36em 0.72em;
+        border: 1px solid black;
+        border-radius: 4px;
+
+        cursor: pointer;
+    }
+}
+
+.success,
+.info,
+.error,
+.warn{
+    background: rgba($color: #000000, $alpha: 0.25);
+    z-index: 100;
+}
+
+.active-alert{
+    padding: 1em 2em;
+    border: 1px solid black;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 60px;
+    right: 60px;
+
+    p{
+        font-size: 18px;
+    }
+
+    .detials{
+        .title{
+            font-size: 24px;
+            font-weight: bolder;
+        }
+    }
+
+    .close-handle{
+        margin: 0 0 0 1em;
+
+        p{
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    }
+}
+
+.not-active-alert{
+    display: none;
+}

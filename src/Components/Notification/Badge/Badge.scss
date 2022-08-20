@@ -1,0 +1,30 @@
+.badge_container{
+    button{
+        margin: 0 1em;
+        border: none;
+        outline: none;
+        background: transparent;
+
+        font-size: 18px;
+        padding: 0.36em 0.72em;
+        border: 1px solid black;
+        border-radius: 4px;
+
+        position: relative;
+        cursor: pointer;
+
+        &:after{
+            // attr is used to get the value from the html and this is only possible in before & after pseudo class
+            content: attr(data-count);
+
+            padding: 0.25em 0.5em;
+            border-radius: 50%;
+            background: #000;
+            color: white;
+
+            position: absolute;
+            top: -20px;
+            right: -15px;
+        }
+    }
+}

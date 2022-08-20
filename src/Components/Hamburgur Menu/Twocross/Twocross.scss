@@ -1,0 +1,96 @@
+.twocross_hamburgur_container{
+    display: none;
+
+    @media (max-width: 480px) {
+        display: block;
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1em;
+
+            .brand-name{
+                h1{
+                    color: red;
+                }
+            }
+
+            .hamburgur{
+                width: 42px;
+                height: 18px;
+    
+                position: relative;
+                z-index: 1000;
+    
+                i{
+                    width: 100%;
+                    height: 4px;
+                    background: red;
+                    border-radius: 12px;
+    
+                    transition: 0.5s all;
+                    position: absolute;
+                }
+
+                .active-top{
+                    transform: rotate(45deg);
+                }
+
+                .active-bottom{
+                    transform: rotate(-45deg);
+                }
+
+                .not-active-top{
+                    top: 0;
+                }
+
+                .not-active-bottom{
+                    bottom: 0;
+                }
+            }
+        }
+
+        .active-options_container{
+            width: 100%;
+            height: 100%;
+            background: #000;
+            color: #fff;
+
+            position: absolute;
+            top: 0;
+
+            transition: 0.5s all;
+
+            ul{
+                margin: 6em 0;
+
+                li{
+                    list-style: none;
+                    padding: 1em 0.5em;
+                }
+            }
+        }
+
+        .not-active-options_container{
+            width: 100%;
+            height: 100%;
+            background: #000;
+            color: #fff;
+
+            position: absolute;
+            top: -100%;
+
+            transition: 0.5s all;
+
+            ul{
+                margin: 6em 0;
+
+                li{
+                    list-style: none;
+                    padding: 1em 0.5em;
+                }
+            }
+        }
+    }
+}

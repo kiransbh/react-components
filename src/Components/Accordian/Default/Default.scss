@@ -1,0 +1,53 @@
+.default_accordian{
+    width: 900px;
+
+    &-item{
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 6px;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: 0.25s all;
+            cursor: pointer;
+
+            h2{
+                font-size: 30px;
+
+                @media (max-width:480px) {
+                    font-size: 20px;
+                }
+            }
+
+            .down-arrow{
+                width: 18px;
+                height: 18px;
+                border-bottom: 2px solid black;
+                border-right: 2px solid black;
+                transform: rotate(45deg);
+            }
+        }
+
+        .not-active-content{
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .active-content{
+            height: auto;
+            max-height: 9999;
+            border-top: 0.5px solid black;
+
+            p{
+                font-size: 20px;
+
+                @media (max-width:480px) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

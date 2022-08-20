@@ -1,0 +1,36 @@
+.dot_tab_container{
+    padding: 0;
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    border-radius: 6px;
+
+    .tab_wrapper{
+        display: flex;
+        align-items: center;
+
+        p{
+            padding: 0.5em 2em;
+            cursor: pointer;
+
+            display: grid;
+            place-items: center;
+
+            div{
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+            }
+        }
+
+        .active-tab{
+            font-weight: bold;
+        }
+
+        .active-dot{
+            background: #000;
+        }
+
+        .not-active-dot{
+            background: #ccc;
+        }
+    }
+}

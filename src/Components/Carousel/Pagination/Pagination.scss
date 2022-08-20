@@ -1,0 +1,55 @@
+.pagination_container{
+    width: 42vw;
+    height: 300px;
+
+    position: relative;
+
+    .active-slide{
+        width: 100%;
+        height: 100%;
+        background: #000;
+        border-radius: 12px;
+
+        display: grid;
+        place-items: center;
+
+        font-size: 24px;
+        color: white;
+
+        position: absolute;
+    }
+
+    .not-active-slide{
+        display: none;
+    }
+
+    .indicator{
+        z-index: 100;
+
+        position: absolute;
+        bottom: -20px;
+
+        display: flex;
+
+        div{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-left: 10px;
+
+            cursor: pointer;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+
+        .active-indicator{
+            background: #000;
+        }
+
+        .not-active-indicator{
+            background: #ccc;
+        }
+    }
+}
