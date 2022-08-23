@@ -1,0 +1,80 @@
+$green: #008744;
+$blue: #0057e7;
+$yellow: #ffa700;
+$red: #d62d20;
+$white: #eeeeee;
+
+.google_load_container{
+    .loader{
+        position: relative;
+        margin: 0 auto;
+
+        width: 120px;
+        height: 120px;
+
+        &:before{
+            content: '';
+            display: block;
+        }
+
+        .circular{
+            width: 100%;
+            height: 100%;
+            transform-origin: center center;
+            position: absolute;
+            margin: 0 auto;
+
+            animation: rotate 2s linear infinite;
+
+            .path{
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+                animation: dash 2s ease-in-out infinite, color 6s ease-in-out infinite;
+                stroke-linecap: round;
+
+                @keyframes dash {
+                    0%{
+                        stroke-dasharray: 1, 200;
+                        stroke-dashoffset: 0;
+                    }
+
+                    50%{
+                        stroke-dasharray: 89, 200;
+                        stroke-dashoffset: -35px;
+                    }
+
+                    100%{
+                        stroke-dasharray: 89, 200;
+                        stroke-dashoffset: -124px;
+                    }
+                }
+
+                @keyframes color {
+                    0%,
+                    100%{
+                        stroke: $red;
+                    }
+
+                    40%{
+                        stroke: $blue;
+                    }
+
+                    66%{
+                        stroke: $green;
+                    }
+
+                    80%,
+                    90%{
+                        stroke: $yellow;
+                    }
+                }
+            }
+
+            @keyframes rotate {
+                100%{
+                    transform: rotate(359deg);
+                }
+            }
+        }
+    }
+}

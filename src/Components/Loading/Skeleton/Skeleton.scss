@@ -1,0 +1,50 @@
+.lazy_container_dummy{
+    width: 360px;
+    height: auto;
+    padding: 18px;
+    border-radius: 8px;
+
+    .title{
+        width: 18%;
+    }
+
+    .cta{
+        width: 27%;
+    }
+
+    h1,
+    p{
+        list-style: none;
+        margin: 10px 0;
+        padding: 4px;
+        background: #ccc;
+        color: #ccc;
+
+        animation: skeleton 1s linear infinite;
+
+        @keyframes skeleton {
+            0%{
+                opacity: 0.25;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0.25;
+            }
+        }
+    }
+}
+
+.lazy_container_original{
+    width: 360px;
+    height: auto;
+    padding: 18px;
+    border-radius: 8px;
+
+    h1,
+    p{
+        margin: 10px 0;
+        padding: 4px;
+    }
+}

@@ -7,20 +7,18 @@
     
     You can find the below component's in the repo:
         -- Accordian
-        -- Bread Crumbs
-        -- Buttons
         -- Carousel
-        -- Cards
-        -- Dropdown
-        -- Forms
         -- Grid
         -- Hamburgur Menu.ie.small screen( screen size < 480px )
         -- Input
+        -- Loading
         -- Modal
+        -- Notification
+        -- Scroll to top
+        -- Sidebar
         -- Tab
         -- Table
         -- Toggle Switch
-
 
 ## ACCORDIAN
     -- Builded the accordian with useState hook.
@@ -59,6 +57,16 @@
 ## INPUT
     -- Builded with SCSS based on focus and valid.
 
+## LOADING
+    -- Builded with SCSS
+
+    Types of loading:
+        -- Default
+        -- Dot
+        -- Google
+        -- Pulse
+        -- Skeleton
+
 ## MODEL
     -- Builded with useRef, useState, useEffect hook.
 
@@ -72,6 +80,19 @@
         -- Badge
         -- Automatic
 
+## SCROLL TO TOP
+    -- Builded with SCSS and JS function
+
+## SIDEBAR
+    -- Builded with useState hook
+
+    Types of sidebar:
+        -- Default
+        -- GrowShrink
+
+## TABLE
+    -- simple table builded with SCSS
+
 ## TAB
     -- Builded with useState hook.
 
@@ -80,3 +101,6 @@
         -- Classic
         -- Dot
         -- Gradient
+
+## TOGGLE SWITCH
+    -- Builded with useState hook

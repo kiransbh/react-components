@@ -1,0 +1,22 @@
+.default_loading_container{
+    width: 420px;
+    height: 4px;
+    border-radius: 12px;
+
+    .load_handler{
+        width: 0%;
+        height: 100%;
+        background: #000;
+        animation: Load 6s linear;
+    
+        @keyframes Load {
+            from{
+                width: 0%;
+            }
+        
+            to{
+                width: 100%;
+            }
+        }
+    }
+}

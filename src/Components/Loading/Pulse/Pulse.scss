@@ -1,0 +1,43 @@
+.pulse_loading_container{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    position: relative;
+    
+    .load_handler_ring{
+        width: 100%;
+        height: 100%;
+        background: red;
+        border-radius: 100%;
+
+        position: absolute;
+        margin: 0 auto;
+
+        &:before,
+        &:after{
+            content: '';
+            position: absolute;           
+
+            width: 100%;
+            height: 100%;
+            background: #000;
+            border-radius: 50%;
+        }
+
+        &::before{
+            animation: pulse 2s ease-out infinite;
+        }
+
+        &::after{
+            animation: pulse 2s 1s ease-out infinite;
+        }
+
+        @keyframes pulse {
+            100%{
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+    }
+}

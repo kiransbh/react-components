@@ -1,0 +1,56 @@
+.grow_shrink_container{
+    width: 12vw;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding: 1em;
+
+    flex-grow: 1;
+    transition: 1s all;
+
+    p{
+        padding: 0.5em 1.25em;
+        margin: 0.5em 0;
+
+        transition: 0.2s all;
+        cursor: pointer;
+    }
+
+    .active-sidetab{
+        color: white;
+        background: #000;
+        border-radius: 4px;
+    }
+}
+
+h1{
+    cursor: pointer;
+}
+
+.not-grow{
+    width: 4vw;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex-grow: 1;
+    flex: 1;
+    transition: 1s all;
+
+    p{
+        padding: 0.5em 1.25em;
+        margin: 0.5em 0;
+
+        transition: 0.2s all;
+        cursor: pointer;
+    }
+
+    .active-sidetab-close{
+        color: white;
+        background: #000;
+        border-radius: 4px;
+    }
+}

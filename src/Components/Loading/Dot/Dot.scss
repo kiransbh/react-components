@@ -1,0 +1,41 @@
+.dot_load_container{
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    div{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        margin: 12px;
+
+        animation: jump 1s linear infinite;
+        transition: 0.5s all;
+
+        &:nth-child(1){
+            animation-delay: -0.1s;
+        }
+        &:nth-child(2){
+            animation-delay: -0.2s;
+        }
+        &:nth-child(3){
+            animation-delay: -0.3s;
+        }
+
+        @keyframes jump {
+            0%{
+                margin-bottom: 0px;
+                background: #ccc;
+            }
+            0%{
+                margin-bottom: 30px;
+                background: #000;
+            }
+            100%{
+                margin-bottom: 0px;
+                background: #ccc;
+            }
+        }
+    }
+}

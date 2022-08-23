@@ -1,0 +1,20 @@
+.default_sidebar_container{
+    width: 16vw;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding: 1em;
+
+    p{
+        padding: 0.5em 1.25em;
+        margin: 0.5em 0;
+
+        transition: 0.2s all;
+        cursor: pointer;
+    }
+
+    .active-sidetab{
+        color: white;
+        background: #000;
+        border-radius: 4px;
+    }
+}

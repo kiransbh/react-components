@@ -1,9 +1,9 @@
 import React from 'react';
 
 // stylesheet
-import './Input.scss';
+import './Modern.scss';
 
-function Input() {
+function Modern() {
   return (
     <div className='input_container'>
         <input type='text' required='true' />
@@ -12,4 +12,4 @@ function Input() {
   )
 }
 
-export default Input
+export default Modern
