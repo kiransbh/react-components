@@ -1,0 +1,40 @@
+.toggle-switch_container{
+    width: 72px;
+    // Change the height in decreasing order, you will get different toggle UI
+    height: 36px;
+    padding: 0.05em;
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+
+    position: relative;
+
+    .active-handler{
+        width: 33px;
+        height: 33px;
+        box-shadow: inset 10px 0 var(--background-color), inset 10px 0 var(--background-color);
+        border-radius: 50%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%,-50%) rotate(-30deg);
+
+        transition: 0.75s all;
+        cursor: pointer;
+    }
+
+    .not-active-handler{
+        width: 33px;
+        height: 33px;
+        background: var(--background-color);
+        border-radius: 50%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%,-50%) rotate(-180deg);
+
+        transition: 0.75s all;
+        cursor: pointer;
+    }
+}

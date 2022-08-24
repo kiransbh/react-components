@@ -1,0 +1,43 @@
+.button{
+    position: relative;
+    overflow: hidden;
+
+    span{
+        border-radius: 50%;
+        background-color: #fff;
+
+        pointer-events: none;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: ripple 1s;
+
+        @keyframes ripple {
+            0%{
+                width: 0px;
+                height: 0px;
+                opacity: 0.25;
+            }
+
+            100%{
+                width: 500px;
+                height: 500px;
+                opacity: 0;   
+            }
+        }
+    }
+
+    button{
+        border: none;
+        outline: none;
+        background: #000;
+        color: #fff;
+
+        font-size: large;
+        padding: 0.5em 2em;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+}

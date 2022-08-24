@@ -7,6 +7,8 @@
     
     You can find the below component's in the repo:
         -- Accordian
+        -- API call
+        -- Button
         -- Carousel
         -- Grid
         -- Hamburgur Menu.ie.small screen( screen size < 480px )
@@ -16,8 +18,10 @@
         -- Notification
         -- Scroll to top
         -- Sidebar
+        -- Slider
         -- Tab
         -- Table
+        -- Theme
         -- Toggle Switch
 
 ## ACCORDIAN
@@ -27,6 +31,19 @@
     Types of accordian:
         -- Default( downward direction )
         -- Collapse( dual direction )
+
+## API CALL
+    -- Clean code for proper API call endpoint.
+
+## AVATAR
+    -- Default google avatar, builded with useState hook.
+
+## BUTTON
+    -- A proper button style created with SCSS.
+
+    Types of button:
+        -- Default button
+        -- Ripple button 
 
 ## CAROUSEL
     -- Builded the carousel with useState and useEffect hook.
@@ -61,6 +78,7 @@
     -- Builded with SCSS
 
     Types of loading:
+        -- Backdrop
         -- Default
         -- Dot
         -- Google
@@ -90,8 +108,8 @@
         -- Default
         -- GrowShrink
 
-## TABLE
-    -- simple table builded with SCSS
+## SLIDER
+    -- Slider for moving left and right, builded with useState hook.
 
 ## TAB
     -- Builded with useState hook.
@@ -101,6 +119,15 @@
         -- Classic
         -- Dot
         -- Gradient
+
+## TABLE
+    -- Simple table builded with SCSS
+
+## THEME
+    -- Toggle between light and dark theme.
+
+    Note:
+        Use :root in global css file and make style color for light & dark theme
 
 ## TOGGLE SWITCH
     -- Builded with useState hook

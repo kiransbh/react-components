@@ -11,9 +11,23 @@ body {
   font-family: system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
-  width: 94%;
-  margin: 3%;
+/* Theme styles */
+.light-theme{
+  color: #000;
+  background: #fff;
+  --background-color: #f9d71c;
+  --border-color: #000;
+  transition: 1s all;
+}
+
+.dark-theme{
+  color: #fff;
+  background: #000;
+  --background-color: #fff;
+  --border-color: #fff;
+  transition: 1s all;
 }
 
 /* Removing user agent styles */

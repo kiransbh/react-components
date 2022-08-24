@@ -4,8 +4,11 @@
     border-right: 1px solid black;
     padding: 1em;
 
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    transition: 1s all;
+    
+    transition: 0.5s all;
 
     p{
         padding: 0.5em 1.25em;
@@ -23,10 +26,11 @@
 }
 
 h1{
+    text-align: center;
     cursor: pointer;
 }
 
-.not-grow{
+.not-grow-shrink{
     width: 4vw;
     height: 100vh;
     border-right: 1px solid black;

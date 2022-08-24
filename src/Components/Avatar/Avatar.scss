@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .user{
+        margin: 2em;
+    }
+    
+    .avatar_container{
+        width: 120px;
+        height: 120px;
+        border: 1px solid black;
+        border-radius: 50%;
+    
+        display: grid;
+        place-items: center;
+    
+        font-size: 24px;
+    }
+}
