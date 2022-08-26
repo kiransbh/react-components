@@ -1,53 +1,24 @@
-import React,{ useState, useEffect } from 'react';
+import useFetch from '../Hook/UseFetch';
 
 function API() {
 
-    const[ fetchAPI, setFetchAPI ] = useState([]);
-    const[ error, setError ] = useState();
+    const [ data, loading, error ] = useFetch('API END POINTS HERE');
 
-    // GET
-    const fetchData = async () => {
-        try {
-            // setLoading(true);
-            const response = await fetch('');
+    if(error) console.table(error);
+    if(loading) <p> Loading ... </p>
 
-            if(!response.ok){
-                throw new Error(
-                    `HTTP error: ${ response.status }`
-                )
-            }
-
-            const actualData = response.json();
-            setFetchAPI(actualData);
-            setError(null);
-
-        }
-
-        catch (error) {
-            setError(error.message);
-            setFetchAPI([]);
-        } 
-
-        // Add the below code, when your are using loading state
-        // finally {
-        //     setLoading(false);
-        // }
-    }
-
-    // POST
-    const postData = async () => {
-        await fetch('',
+  return (
+    <div>
         {
-            // The values that want to get posted into the database
-        });
-    }
-
-    useEffect(() => {
-        fetchData();
-        postData();
-    }, []);
-
-  return (<></>)
+            data.map((element, index) => {
+                return (
+                    // component here
+                    <p key={index}>{ element }</p>
+                )
+            })
+        }
+    </div>
+  )
 }
 
 export default API

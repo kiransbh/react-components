@@ -12,10 +12,12 @@
         -- Carousel
         -- Grid
         -- Hamburgur Menu.ie.small screen( screen size < 480px )
+        -- Hook
         -- Input
         -- Loading
         -- Modal
         -- Notification
+        -- Password show Hide
         -- Scroll to top
         -- Sidebar
         -- Slider
@@ -71,6 +73,11 @@
         -- Two cross hamburgur
         -- Three cross hamburgur
 
+## HOOK
+    Types of custom hook:
+        -- useFetch
+        -- usePasswordToggle
+
 ## INPUT
     -- Builded with SCSS based on focus and valid.
 
@@ -97,6 +104,10 @@
     Types of notification:
         -- Badge
         -- Automatic
+
+## PASSWORD SHOW HIDE
+    -- Builded with custom hook
+    -- Password strength indicator using password length
 
 ## SCROLL TO TOP
     -- Builded with SCSS and JS function

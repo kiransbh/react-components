@@ -1,0 +1,37 @@
+.form_container{
+    width: 36vw;
+
+    display: flex;
+    flex-direction: column;
+
+    .password_toggle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+    
+            font-size: 18px;
+    
+            width: 100%;
+            padding: 1em;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+    
+        span{
+            padding: 1.1em;
+            border: 1px solid black;
+            border-radius: 6px;
+        }
+    }
+
+    .password_strength{
+        height: 4px;
+        margin: 12px 0;
+        border-radius: 24px;
+    }
+}
