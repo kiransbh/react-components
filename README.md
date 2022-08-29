@@ -14,6 +14,7 @@
         -- Hamburgur Menu.ie.small screen( screen size < 480px )
         -- Hook
         -- Input
+        -- Like
         -- Loading
         -- Modal
         -- Notification
@@ -80,6 +81,9 @@
 
 ## INPUT
     -- Builded with SCSS based on focus and valid.
+
+## LIKE
+    -- Inspired from Telegram & Linked and builded with useState, useEffect hook
 
 ## LOADING
     -- Builded with SCSS

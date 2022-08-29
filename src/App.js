@@ -1,9 +1,9 @@
-import Form from './Components/Form/Form';
+import InstagramStory from "./Components/Carousel/InstagramStory/InstagramStory";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <InstagramStory />
     </div>
   );
 }
