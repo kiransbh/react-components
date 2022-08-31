@@ -1,0 +1,24 @@
+.tooltip_container{
+    padding: 0.5em 2em;
+    background: #000;
+    border-radius: 4px;
+
+    font-size: 16px;
+    color: #fff;
+
+    position: relative;
+
+    &::after{
+        content: '';
+        width: 15px;
+        height: 15px;
+        background: #000;
+        border-radius: 2px;
+
+        // Change the top & left position to move the tip around the tool
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%) rotate(45deg);
+    }
+}

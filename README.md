@@ -2,8 +2,8 @@
 
     Hello, it's nice to see you in my github repo. I had created the repo for helping the developer's to build compoents without using any NPM packages.
 
-        -- By copy & paste, you can implement in your project.
         -- Adjust the component styles based on your design needs.
+        -- I had added a screenshot folder for UI outlook after rendering.
     
     You can find the below component's in the repo:
         -- Accordian
@@ -110,21 +110,25 @@
         -- Automatic
 
 ## PASSWORD SHOW HIDE
-    -- Builded with custom hook
-    -- Password strength indicator using password length
+    -- Builded with custom hook.
+    -- Password strength indicator using password length.
 
 ## SCROLL TO TOP
-    -- Builded with SCSS and JS function
+    -- Builded with SCSS and JS function.
 
 ## SIDEBAR
-    -- Builded with useState hook
+    -- Builded with useState hook.
 
     Types of sidebar:
         -- Default
         -- GrowShrink
 
 ## SLIDER
-    -- Slider for moving left and right, builded with useState hook.
+    -- Builded with useState hook.
+
+    Types of slide:
+        -- Continues scroll slider
+        -- Navigation slider
 
 ## TAB
     -- Builded with useState hook.

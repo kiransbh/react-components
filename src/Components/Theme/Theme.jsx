@@ -1,7 +1,7 @@
 import React,{ useState, useEffect } from 'react'
 
 // stylesheet
-import './DarkLight.scss';
+import './Theme.scss';
 
 function DarkLight() {
 
