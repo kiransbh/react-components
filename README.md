@@ -19,6 +19,7 @@
         -- Modal
         -- Notification
         -- Password show Hide
+        -- ScrollIndicator
         -- Scroll to top
         -- Sidebar
         -- Slider
@@ -112,6 +113,9 @@
 ## PASSWORD SHOW HIDE
     -- Builded with custom hook.
     -- Password strength indicator using password length.
+
+## SCROLL INDICATOR
+    -- Builded with custom hook.
 
 ## SCROLL TO TOP
     -- Builded with SCSS and JS function.
